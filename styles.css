@@ -15,8 +15,10 @@
     --warm-black: #201E1C;
     --black: #282623;
     --grey: #BABABA;
+    --mid-grey: #757575;
     --off-white:#FAF8F7;
     --just-white: #fff;
+    
 }
 *{
     box-sizing: border-box;
@@ -104,6 +106,7 @@ color: var(--just-white);
 
 main{
     width: 100%;
+    min-width: 320px;
     height: auto; /*el height auto hace que el contenedor se ajuste
                     al tamaño del contenido*/
     background-color: var(--off-white);
@@ -124,10 +127,34 @@ main{
     max-width: 900px;
     margin: 0 auto;  /*el margin: 0 auto genera un margin automatico que 
                        centra el texto, esto sucede ya que el contenido no tiene un width
-                        de 100%*/
-    
-                   
+                        de 100%*/                
 }
     
+.main-exchange-container .backgroundImg{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('./assets/images/bitcoin.png') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-exchange-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.main-exchange-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: var(--mid-grey);
+}
 
 
