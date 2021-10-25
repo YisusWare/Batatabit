@@ -102,6 +102,32 @@ color: var(--just-white);
     background-image: url('./assets/icons/vector.svg')
 }
 
+main{
+    width: 100%;
+    height: auto; /*el height auto hace que el contenedor se ajuste
+                    al tamaño del contenido*/
+    background-color: var(--off-white);
+
+}
+
+.main-exchange-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-exchange-container--title{
+    width: 90%;
+    min-width: 288px; /*el 90% de 320px es 288px*/
+    max-width: 900px;
+    margin: 0 auto;  /*el margin: 0 auto genera un margin automatico que 
+                       centra el texto, esto sucede ya que el contenido no tiene un width
+                        de 100%*/
+    
+                   
+}
     
 
 
