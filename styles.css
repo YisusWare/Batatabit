@@ -161,7 +161,7 @@ main{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 300px;
     margin: 0 auto;
     font-family: "inter" , sans-serif;
 }
@@ -247,10 +247,30 @@ main{
 
 .currency-table-date{
     width: 140px;
+    height: 30px;
     padding: 10px 5px;
     margin: 10px auto 25px auto;
     background-color: var(--soft-orange);
     border-radius: 5px;
 }
 
+.comissions-table--title{
+    margin: 15px;
+    font-size: 1.8rem;
+    margin:15px;
+    font-size:1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+    text-align: start;
+}
+
+.currency-table--container .comissions-table-date{
+    background-color: var(--soft-blue);
+    width:140px;
+    height: 30px;
+    padding: 10px  5px;
+    margin: 10px auto 25px auto;
+    border-radius: 5px;
+}
 
