@@ -13,6 +13,7 @@
     --secondary-blue: #1a9af7;
     --soft-blue: #e7f5ff;
     --warm-black: #201E1C;
+    --warm-black1: #282623; 
     --black: #282623;
     --grey: #BABABA;
     --mid-grey: #757575;
@@ -273,4 +274,108 @@ main{
     margin: 10px auto 25px auto;
     border-radius: 5px;
 }
+
+.main-product-detail{
+    width: 100%;
+    height: auto;
+    padding-bottom: 47px;
+    background-color: var(--warm-black);
+    
+}
+
+.main-product-detail .logo{
+    display: block;
+    width: 51px;
+    height:30px;
+    margin: 0 auto;
+    background-image: url(./assets/images/logo.svg);
+    background-size:cover ;
+    position: relative;
+    bottom: 14px;
+    
+}
+
+.main-product-detail h2{
+    width:90%;
+    margin: 35px auto 0 auto;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 26px;
+    color: white;
+    text-align: center;
+}
+
+.main-product-detail div p{
+    width: 90%;
+    text-align: center;
+    margin: 20px auto 32px auto;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 18px;
+    color: #858585;
+
+}
+
+.product-cards-container .product-detail--card{
+width: 90%;
+height: 152px;
+padding: 16px;
+margin: 0 auto 16px auto;
+background-color: var(--warm-black1);
+border-radius: 3px;
+}
+
+.product-detail--card .product--card-title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+    font-style: normal;
+}
+
+.product-detail--card .clock-ikon {
+    display: block;
+    width: 20px;
+    height:20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/clock\ .svg);
+    background-size: cover;
+}
+
+.product-detail--card .eye-ikon{
+    display: block;
+    width: 20px;
+    height:20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/eye.svg);
+    background-size: cover;
+}
+
+.product-detail--card .dollar-ikon{
+    display: block;
+    width: 20px;
+    height:20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/dollar-sign.svg);
+    background-size: cover;
+}
+
+.product-detail--card .check-ikon{
+    display: block;
+    width: 20px;
+    height:20px;
+    margin-bottom: 10px;
+    background-image: url(./assets/icons/check-circle.svg);
+    background-size: cover;
+}
+
+
+
+.product-detail--card .product--card-body{
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 18px;
+color: #858585;
+}
+
 
