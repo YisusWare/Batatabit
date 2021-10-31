@@ -318,11 +318,14 @@ main{
 
 .product-cards-container .product-detail--card{
 width: 90%;
+min-width: 288px;
+max-width:400px;
 height: 152px;
 padding: 16px;
 margin: 0 auto 16px auto;
 background-color: var(--warm-black1);
 border-radius: 3px;
+
 }
 
 .product-detail--card .product--card-title{
@@ -377,5 +380,24 @@ font-size: 1.4rem;
 line-height: 18px;
 color: #858585;
 }
+.image-container{
+    background-color: var(--off-white);
+}
+.image-section{
+    width: 320px;
+    height: 60vh;
+    margin: 0 auto;
+    padding-top: 64px;
+    background-image: url(./assets/images/backgroundImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image-section h2{
+    text-align: center;
+    
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
 
+}
 
