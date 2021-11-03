@@ -435,14 +435,19 @@ text-align: center;
 }
 .plans-container--slider{
     display: flex;
+    height:316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 .plans-container--card{
     position:relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 192px;
     max-width:300px;
     height: 250px;
-    margin: 50px auto 0 ;
+    margin: 50px 4px 0 4px;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -517,11 +522,12 @@ text-align: center;
 
 .plans-container--mensaual{
     position:relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 192px;
     max-width:300px;
     height: 250px;
-    margin: 50px auto 0 ;
+    margin: 50px 4px 0 8px;
     padding: 30px 15px 0;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -585,11 +591,12 @@ text-align: center;
 
 .plans-container--VIP{
     position:relative;
+    scroll-snap-align: center;
     width: 60%;
     min-width: 192px;
     max-width:300px;
     height: 250px;
-    margin: 50px auto 0 ;
+    margin: 50px 8px 0 4px;
     padding: 30px 15px 0;
     background: linear-gradient(207deg, rgb(10, 10, 10) 20%, var(--warm-black1) 100%);
     border-radius: 15px;
